@@ -1,17 +1,13 @@
 <?php
 
-include "procesos.php";
+//include "procesos.php";
 
 /**
  * Clase Conexion SQL Server
  */
 class Mssql{
 
-    private $HOST = "checksoft.no-ip.info";
-    private $PORT = 4133;
-    private $BASE = "LaPapa_Web";
-    private $PASS = "78D.5284W/f";
-    private $USER = "LaPapa_Web";
+    
 
     private $SERVER_NAME;
 
