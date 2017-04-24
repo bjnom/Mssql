@@ -7,7 +7,11 @@
  */
 class Mssql{
 
-    
+    private $HOST = "server";
+    private $PORT = 1234;
+    private $BASE = "lapapa";
+    private $PASS = "pass";
+    private $USER = "user";
 
     private $SERVER_NAME;
 
